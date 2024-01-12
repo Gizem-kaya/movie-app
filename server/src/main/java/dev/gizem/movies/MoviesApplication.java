@@ -7,8 +7,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 public class MoviesApplication {
 
-	int a = 5;
-
 	public static void main(String[] args) {
 		SpringApplication.run(MoviesApplication.class, args);
 	}
