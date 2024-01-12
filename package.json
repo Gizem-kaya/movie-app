@@ -1,0 +1,16 @@
+{
+    "name": "movie-app",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "pre-commit": "cd server && mvn sonar:sonar"
+    },
+    "husky": {
+        "hooks": {
+            "pre-commit": "npm run pre-commit"
+        }
+    },
+    "devDependencies": {
+        "husky": "^8.0.3"
+    }
+}
